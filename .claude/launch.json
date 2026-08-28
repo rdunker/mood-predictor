@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mood-predictor-ui",
+      "runtimeExecutable": "/Users/rdunker/Documents/uni/sem2/foundations_of_machine_learning/MoodPredictor/.venv/bin/python",
+      "runtimeArgs": ["ui/app.py"],
+      "port": 5000
+    }
+  ]
+}
