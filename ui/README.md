@@ -32,7 +32,7 @@ np.savez(
 python ui/app.py
 ```
 
-4. Open http://localhost:5000 in your browser.
+4. Open http://localhost:4000 in your browser.
 
 Notes
 - The app will automatically load `artifacts/preprocessor.joblib` and `artifacts/model_weights.npz` if they exist.
