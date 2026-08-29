@@ -13,4 +13,5 @@ We used the Kaggle dataset [*Social Media, Screen Time & Mental Health 2026*](ht
 ### Start here
 - *mood-predictor.ipynb* contains the models
 - *ui/app.py* contains a self-hostable app with a simple interface to make predictions based on our final trained model:
-  
+  <img width="834" height="385" alt="image" src="images/img.png" />
+
