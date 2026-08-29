@@ -12,6 +12,6 @@ Forward propagation, loss computation, backpropagation, regularization, and grad
 We used the Kaggle dataset [*Social Media, Screen Time & Mental Health 2026*](https://www.kaggle.com/datasets/uditjain13/social-media-screen-time-and-mental-health-2026). A simulated wellbeing survey of 7,000 people linking daily screen time and platform habits to anxiety, sleep, mood, and life satisfaction. The dataset contains 25 columns covering demographics, usage behaviour, and self-reported wellbeing proxies. Because all rows are synthetic and programmatically generated, the project can test implementation and experimental reasoning but cannot establish clinical or causal relationships.
 ### Start here
 - *mood-predictor.ipynb* contains the models
-- *ui/app.py* contains a self-hostable app with a simple interface to make predictions based on our final trained model:
-  <img width="834" height="385" alt="image" src="images/img.png" />
+- *ui/app.py* contains a self-hostable app with a simple interface to make predictions based on our final trained model (to run it refer to [ui/README.md](ui/README.md)):
+<img width="834" height="385" alt="image" src="images/img.png" />
 
