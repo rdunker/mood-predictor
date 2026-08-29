@@ -58,7 +58,7 @@ class FeedForwardNeuralNetwork:
 
 def find_artifacts_dir():
     # repo-root relative: ../artifacts/mood_predictor_v2 from this file
-    # this subfolder is dedicated to mood-predictor-v2.ipynb's outputs, so other
+    # this subfolder is dedicated to mood-predictor.ipynb's outputs, so other
     # notebooks (e.g. AI_try.ipynb) sharing "artifacts/" can't overwrite these files
     base = os.path.dirname(__file__)
     artifacts = os.path.normpath(os.path.join(base, "..", "artifacts", "mood_predictor_v2"))
@@ -148,12 +148,12 @@ def index():
             df = pd.DataFrame([values], columns=FEATURE_COLUMNS)
 
             if preprocessor is None:
-                message = "No preprocessor available. Run mood-predictor-v2.ipynb to generate artifacts/."
+                message = "No preprocessor available. Run mood-predictor.ipynb to generate artifacts/."
             else:
                 X = preprocessor.transform(df)
 
                 if not MODEL_READY:
-                    message = "No trained model available. Run mood-predictor-v2.ipynb to generate artifacts/."
+                    message = "No trained model available. Run mood-predictor.ipynb to generate artifacts/."
                 else:
                     wellbeing_prediction = WELLBEING_CLASS_NAMES[
                         int(wellbeing_network.predict(X)[0])
