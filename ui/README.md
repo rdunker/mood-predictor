@@ -1,6 +1,4 @@
-UI for testing the mood predictor
-
-Quick start
+### Quick start
 
 1. Install dependencies (prefer a virtualenv):
 
